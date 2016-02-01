@@ -57,7 +57,6 @@ class TranslateService implements TranslateApi
         if (isset($ret['error_code'])){
             return ['result'=>$this->error[$ret['error_code']],'status'=>'error'];
         }
-
         return ['result'=>$ret['trans_result'][0]['dst'],'status'=>'success'];
     }
 
