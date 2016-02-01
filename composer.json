@@ -1,0 +1,22 @@
+{
+    "name": "iscms/translate",
+    "description": "基于Laravel5的百度翻译接口封装",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "秋綾",
+            "email": "saberlove@me.com"
+        }
+    ],
+    "keywords": ["百度翻译","baidu","baidutranslate","百度翻译laravel"],
+    "homepage": "https://www.iscloudx.com",
+    "require": {
+      "php": ">=5.5.0",
+      "laravel/framework": "5.*"
+    },
+    "autoload": {
+      "psr-4": {
+        "iscms\\translate\\": "src/"
+      }
+    }
+}
