@@ -16,7 +16,7 @@ iscms\translate\BaiduTranslateServiceProvider::class,
 ```
 php artisan vendor:publish
 ```
-将配置项目发不到您的config目录下
+将配置项目发布到您的config目录下
 您可以找到
 ```
 baidu-translate.php
