@@ -1,5 +1,5 @@
 {
-    "name": "iscms/translate",
+    "name": "yoruchiaki/translate",
     "description": "基于Laravel5的百度翻译接口封装",
     "license": "MIT",
     "authors": [
